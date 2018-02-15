@@ -1,0 +1,301 @@
+/*Шрифт HelveticaCE Regular*/
+@font-face {
+    font-family: MyUniqueFont;
+    src: url('../fonts/HV.ttf');
+    font-style: normal;
+    font-weight: normal
+}
+
+/*Шрифт Swiss721BT*/
+@font-face {
+    font-family: Swiss721BT;
+    src: url('../fonts/6706.ttf');
+    font-style: normal;
+    font-weight: normal
+}
+/*Шрифт MyriadPro-Regular*/
+@font-face {
+    font-family: MyriadPro;
+    src: url('../fonts/MyriadPro-Regular.otf');
+    font-style: normal;
+    font-weight: normal
+}
+/*Задаем расположение кнопок для слайдера*/
+.picture-back{
+    background-image: url('../images/back.png');
+    width: 23px; /* Ширина области */
+    height: 23px; /* Высота области */
+    margin-top: 170px;
+}
+.picture-next{
+    background-image: url('../images/next.png');
+    width: 23px; /* Ширина области */
+    height: 23px; /* Высота области */
+    margin-top: -23px;
+    margin-left: 370px;
+}
+.picture-more{
+    background-image: url('../images/more.png');
+    width: 59px; /* Ширина области */
+    height: 18px; /* Высота области */
+    margin-top: 85px;
+    margin-left: 370px;
+}
+
+/*Оформление для текста под картинкой кактусы*/
+.lipsum-text{
+    color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -24px;
+    padding-left: 45px;
+    font-size: 15pt;
+}
+
+header .promo-main {
+    color: #ffc733;
+    font-family: 'Roboto', 'Comic Sans MS', sans-serif;
+    text-transform: uppercase;
+
+}
+
+header .sub-main {
+    color: darkgrey;
+    font-family: MyriadPro, 'Comic Sans MS', sans-serif;
+    padding-top: 10px;
+}
+
+.row .promo-block{
+    padding-top: 20px;
+}
+
+header nav {
+    border: solid 1px #000;
+    border-left: none;
+    border-right: none;
+}
+
+header nav > a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: darkgrey;
+    padding: 5px 0;
+}
+
+header nav > a + a {
+    margin-left: 80px;
+    font-family: Swiss721BT, 'Comic Sans MS', sans-serif;
+    text-transform: uppercase;
+}
+
+header .promo {
+    border-left: solid 1px #ccc;
+    padding-left: 45px;
+}
+
+header .promo-block + .menu {
+    padding-top: 20px;
+}
+
+/*Картинка логотип*/
+.logo {
+    background-image: url('../images/logo.png');
+    width: 75px; /* Ширина области */
+    height: 57px; /* Высота области */
+    margin-left: 15px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+}
+
+/*Стиль для параграфа*/
+.p-stale{
+    display: block;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+/*Обработка надписи "FEATURED PRODUCTS"*/
+.span-text{
+    color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 35px;
+    font-size: 8pt;
+    text-transform: uppercase;
+}
+
+.letter {
+    color: black;
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+    position: relative; /* Относительное позиционирование */
+    top: 15px;
+    left: -15px;
+}
+
+.logotext{
+    font-family: MyUniqueFont, 'Comic Sans MS', sans-serif;
+    font-size: 21pt;
+    padding-top: 11px;
+    padding-left: 115px;
+}
+/*Картинка первая "кактусы"*/
+.feature1 {
+    background-image: url('../images/pic2.png');
+    width: 450px; /* Ширина области */
+    height: 250px; /* Высота области */
+    padding-top: 105px;
+    margin-right: 25px;
+}
+/*Картинка Будды*/
+.feature2 {
+    background-image: url('../images/pic1.png');
+    width: 450px; /* Ширина области */
+    height: 200px; /* Высота области */
+    padding-top: 105px;
+}
+
+/*Полоска над картинкой с Буддой*/
+.feature2-stripe{
+    margin-top: 106px;
+    margin-bottom: 36px;
+    margin-left: -15px;
+    background-color: black;
+    height: 1px;
+}
+/*Полоска серая в main*/
+.pol{
+    margin-top: 80px;
+    margin-bottom: 36px;
+    border-left: none;
+    border-right: none;
+    background-color: darkgrey;
+    height: 1px;
+}
+/*Полоска вверху страницы*/
+.logstripe {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    border-left: none;
+    border-right: none;
+    background-color: #ffc733;
+    height: 8px;
+}
+
+.feature-common{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.col-main{
+    padding-top: 20px;
+}
+/*Блок календарь новостей*/
+.calend{
+    padding-left: 0;
+}
+
+.promo1{
+    border-bottom: dashed 1px black;
+    padding-left: 0;
+    padding-bottom: 16px;
+    margin-top: 20px;
+}
+
+.promo1-data{
+    padding-left: 0;
+}
+
+.bolder-promo1{
+    border-right: solid 1px black;
+}
+
+.text-sub-data{
+    color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -143px;
+    font-size: 11pt;
+
+}
+.sub-data{
+    padding-left: 50px;
+    margin-top: -35px;
+}
+
+/*Блок новости*/
+.news{
+    padding-left: 21px;
+    margin-top: -131px;
+    margin-left: 322px;
+    margin-right: 245px;
+
+}
+.who-text{
+    color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+
+/*Блок контакты*/
+.contacts {
+    margin-left: 660px;
+    margin-top: -238px;
+}
+
+.text-label{
+    text-transform: uppercase;
+    font-family: Swiss721BT, 'Comic Sans MS', sans-serif;
+}
+
+.colomn-footer{
+    padding-left: 25px;
+    margin-top: 221px;
+    margin-left: 315px;
+    margin-right: 245px;
+}
+
+/*Картинка логотип*/
+.logo-footer {
+    background-image: url('../images/minlogo.png');
+    width: 51px; /* Ширина области */
+    height: 35px; /* Высота области */
+    margin-left: 50px;
+    margin-top: 401px;
+}
+.logotext-footer {
+    font-family: MyUniqueFont, 'Comic Sans MS', sans-serif;
+    font-size: 15pt;
+    padding-top: 3px;
+    padding-left: 55px;
+}
+
+.text-footer {
+    font-size: 10pt;
+    margin-left: -100px;
+    margin-right: -160px;
+    margin-top: 16px;
+}
+
+.end-footer{
+    font-family: Swiss721BT, 'Comic Sans MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 5px
+}
+
+.menu-footer {
+    margin-left: -125px;
+    font-family: Swiss721BT, 'Comic Sans MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+footer nav > a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: darkgrey;
+    padding-top: 15px;
+}
+
+footer nav > a + a {
+    margin-left: 5px;
+    font-family: Swiss721BT, 'Comic Sans MS', sans-serif;
+    text-transform: uppercase;
+}
