@@ -20,6 +20,53 @@
     font-style: normal;
     font-weight: normal
 }
+.text-caption{
+    color: darkgrey;
+    font-family: MyriadPro, 'Comic Sans MS', sans-serif;
+    text-transform: uppercase;
+    margin: 14px;
+}
+
+.letter {
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    position: relative; /* Относительное позиционирование */
+    text-align: left;
+    margin-top: 20px;
+}
+
+.lipsum-text:before {
+    content: url('../images/back.png');
+    width: 23px; /* Ширина области */
+    height: 23px; /* Высота области */
+    margin-right: 15px;
+}
+
+.lipsum-text:after {
+    content: url('../images/next.png');
+    width: 23px; /* Ширина области */
+    height: 23px; /* Высота области */
+    margin-left: 15px;
+}
+
+.picture-more{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    padding: 4px;
+    margin-left: 282px;
+}
+
+.continue-more{
+    background-color: black;
+    font-size: 11px;
+    padding: 4px;
+}
+
+
 /*Задаем расположение кнопок для слайдера*/
 .picture-back{
     background-image: url('../images/back.png');
@@ -34,22 +81,18 @@
     margin-top: -23px;
     margin-left: 370px;
 }
-.picture-more{
-    background-image: url('../images/more.png');
-    width: 59px; /* Ширина области */
-    height: 18px; /* Высота области */
-    margin-top: 85px;
-    margin-left: 370px;
-}
 
 /*Оформление для текста под картинкой кактусы*/
 .lipsum-text{
     color: darkgrey;
     font-family: 'Roboto', sans-serif;
-    margin-top: -24px;
-    padding-left: 45px;
-    font-size: 15pt;
+    text-align: center;
+    font-size: 15px;
 }
+
+
+
+
 
 header .promo-main {
     color: #ffc733;
@@ -122,14 +165,7 @@ header .promo-block + .menu {
     text-transform: uppercase;
 }
 
-.letter {
-    color: black;
-    font-size: 11pt;
-    font-family: 'Roboto', sans-serif;
-    position: relative; /* Относительное позиционирование */
-    top: 15px;
-    left: -15px;
-}
+
 
 .logotext{
     font-family: MyUniqueFont, 'Comic Sans MS', sans-serif;
