@@ -1,95 +1,73 @@
-/*Шрифт HelveticaCE Regular*/
-@font-face {
-    font-family: MyUniqueFont;
-    src: url('../fonts/HV.ttf');
-    font-style: normal;
-    font-weight: normal
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-/*Шрифт Swiss721BT*/
-@font-face {
-    font-family: Swiss721BT;
-    src: url('../fonts/6706.ttf');
-    font-style: normal;
-    font-weight: normal
-}
-/*Шрифт MyriadPro-Regular*/
-@font-face {
-    font-family: MyriadPro;
-    src: url('../fonts/MyriadPro-Regular.otf');
-    font-style: normal;
-    font-weight: normal
-}
-.text-caption{
-    color: darkgrey;
+.text-caption {
+    color: #A9A9A9;
     font-family: MyriadPro, 'Comic Sans MS', sans-serif;
     text-transform: uppercase;
     margin: 14px;
 }
 
-.letter {
-    color: black;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    position: relative; /* Относительное позиционирование */
-    text-align: left;
-    margin-top: 20px;
-}
-
 .lipsum-text:before {
     content: url('../images/back.png');
-    width: 23px; /* Ширина области */
-    height: 23px; /* Высота области */
     margin-right: 15px;
 }
 
 .lipsum-text:after {
     content: url('../images/next.png');
-    width: 23px; /* Ширина области */
-    height: 23px; /* Высота области */
     margin-left: 15px;
 }
 
-.picture-more{
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+.picture-more:hover {
+    text-decoration: underline;
+}
+
+.controls {
     text-align: center;
-    font-size: 11px;
-    padding: 4px;
-    margin-left: 402px;
 }
 
-.continue-more{
-    background-color: black;
-    font-size: 11px;
-    padding: 4px;
+@media(min-width: 1100px) {
+    .controls {
+        padding-right: 30px;
+    }
+
+    .col-right .letter {
+        color: #000000;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        position: relative; /* Относительное позиционирование */
+        text-align: left;
+        margin-top: 20px;
+        padding-right: 30px;
+    }
 }
 
-
-/*Задаем расположение кнопок для слайдера*/
-.picture-back{
-    background-image: url('../images/back.png');
-    width: 23px; /* Ширина области */
-    height: 23px; /* Высота области */
-    margin-top: 170px;
-}
-.picture-next{
-    background-image: url('../images/next.png');
-    width: 23px; /* Ширина области */
-    height: 23px; /* Высота области */
-    margin-top: -23px;
-    margin-left: 370px;
+@media(min-width: 900px) {
+    .col-right .picture-more {
+        background-color: #000000;
+        transition: all .2s ease-in-out;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 11px;
+        padding: 4px;
+        margin-left: 269px;
+    }
 }
 
-/*Оформление для текста под картинкой кактусы*/
-.lipsum-text{
-    color: darkgrey;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 15px;
+@media(max-width: 576px) {
+    .col-right .picture-more {
+        background-color: #000000;
+        transition: all .2s ease-in-out;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 11px;
+        padding: 4px;
+        margin-left: 302px;
+    }
 }
-
-
-
 

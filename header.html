@@ -1,45 +1,54 @@
 <!doctype html>
 <html>
 <head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Header</title>
-	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Header</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/font_face.css" type="text/css">
+    <link rel="stylesheet" href="css/col-left.css" type="text/css">
+    <link rel="stylesheet" href="css/col-right.css" type="text/css">
+    <link rel="stylesheet" href="css/arrow.css" type="text/css">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
 
-	<div class="container">
+<div class="container">
 
-		<!-- content -->
-		<main>
-			<!-- features -->
-			<p class="container features">
-				<p class="text-caption">Featured products</p>
-				<div class="row">
+    <!-- content -->
+    <main>
+        <!-- features -->
+        <div class="container features">
+        <h1 class="text-caption">Featured products</h1>
+        <div class="row">
 
-					<div class="col">
-						<img src='images/pic2.png' width="100%">
+            <div class="col col-md-6 col-left">
+                <!--img src='/images/pic2.png' alt ="/images/cactus.png" class="img-fluid"-->
+                <img src='images/pic2.png' alt ="/images/cactus.png" class="img-fluid">
 
-						<!--Befor? after?-->
-						<div class="col">
-							<p class="lipsum-text">Lipsum comoodo Manager</p>
-						</div>
-					</div>
+                <!--Befor? after?-->
+                <div class="controls">
+                    <i class="icon i-left"></i>
+                    <span class="lipsum-text">Lipsum comoodo Manager</span>
+                    <i class="icon i-right"></i>
+                </div>
+            </div>
 
-					<div class="col">
-						<img src='images/pic1.png' width="100%">
-							<p class="letter">Therefore, in order to love God we have to first know God. So how do we
-							come to know God? We examine the ways he's revealed himself to us.
-							And in understanding the ways he's revealed himself to us, we better understand.</p>
-						<a class="picture-more">More</a>
-					</div>
-				</div>
-			</div>
+            <div class="col col-md-6 col-right">
+                <!--img src='/images/pic1.png' alt ="/images/Budda.png" class="img-fluid"-->
+                <img src='images/pic1.png' alt ="/images/Budda.png" class="img-fluid">
+                <p class="letter">Therefore, in order to love God we have to first know God. So how do we
+                    come to know God? We examine the ways he's revealed himself to us.
+                    And in understanding the ways he's revealed himself to us, we better understand.</p>
+                <a href="javascript:void(0)" class="picture-more"><span class="arrow">More</span></a>
+            </div>
+        </div>
+</div>
 
-		<!-- js here -->
+<!-- js here -->
 </body>
 
 </html>

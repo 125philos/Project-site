@@ -1,0 +1,16 @@
+.col-left .lipsum-text:before,
+.lipsum-text:after {
+    display: inline-block;
+    width: 23px; /* Ширина области */
+    height: 23px; /* Высота области */
+    vertical-align: bottom;
+}
+
+/*Оформление для текста под картинкой кактусы*/
+.col-left .lipsum-text {
+    color: #A9A9A9;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+

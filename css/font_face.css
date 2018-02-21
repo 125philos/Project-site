@@ -1,0 +1,22 @@
+/*Шрифт HelveticaCE Regular*/
+@font-face {
+    font-family: MyUniqueFont;
+    src: url('../fonts/HV.ttf');
+    font-style: normal;
+    font-weight: normal
+}
+
+/*Шрифт Swiss721BT*/
+@font-face {
+    font-family: Swiss721BT;
+    src: url('../fonts/6706.ttf');
+    font-style: normal;
+    font-weight: normal
+}
+/*Шрифт MyriadPro-Regular*/
+@font-face {
+    font-family: MyriadPro;
+    src: url('../fonts/MyriadPro-Regular.otf');
+    font-style: normal;
+    font-weight: normal
+}
